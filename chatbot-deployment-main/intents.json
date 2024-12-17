@@ -1,0 +1,111 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hey", "Hello", "Good morning", "Good afternoon",
+        "Good evening", "What's up", "How are you", "Is anyone there?",
+        "Nice to meet you", "Greetings"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! I'm here to help you!",
+        "Hey! Great to see you! How can I make your day better?",
+        "Welcome! I'm your AI assistant. What can I do for you?",
+        "Greetings! I'm here to help make things easier for you!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "See you later", "Goodbye", "Take care", "Nice chatting",
+        "Until next time", "Catch you later", "Have a nice day"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "Take care! Come back soon!",
+        "See you later! Thanks for chatting!",
+        "Bye! It was nice talking to you!",
+        "Until next time! Have a wonderful day!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", "Thank you", "That's helpful", "Awesome, thanks",
+        "Thanks for helping me", "Great help"
+      ],
+      "responses": [
+        "You're welcome! Happy to help!",
+        "Anytime! That's what I'm here for!",
+        "My pleasure! Let me know if you need anything else!",
+        "Glad I could help! Feel free to ask more questions!"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "What do you sell?", "What items do you have?",
+        "What can I buy here?", "Show me your products",
+        "Tell me about your items", "What products do you offer?"
+      ],
+      "responses": [
+        "We offer a variety of premium coffee and tea products! Our selection includes espresso beans, specialty teas, brewing equipment, and accessories.",
+        "Our product line features high-quality coffee beans, artisanal teas, coffee makers, and tea sets. What interests you?",
+        "We specialize in coffee and tea products, from fresh beans to brewing equipment. Would you like to know more about any specific category?"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?", "What payment methods do you accept?",
+        "Can I pay with PayPal?", "Are cash payments accepted?",
+        "What are the payment options?", "How can I pay?"
+      ],
+      "responses": [
+        "We accept all major credit cards, PayPal, and bank transfers. What's your preferred payment method?",
+        "You can pay using credit/debit cards, PayPal, or bank transfer. All transactions are secure!",
+        "We support various payment methods including cards, PayPal, and bank transfers. Let me know if you need more details!"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?", "What are the shipping options?",
+        "When will I get my order?", "Do you ship internationally?",
+        "Tell me about shipping", "What's your delivery time?"
+      ],
+      "responses": [
+        "Standard delivery takes 3-5 business days. Express shipping (1-2 days) is also available!",
+        "We offer standard (3-5 days) and express (1-2 days) shipping. International shipping is available for most countries.",
+        "Delivery usually takes 3-5 business days. Need it faster? Try our express shipping option!"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke", "Say something funny",
+        "Make me laugh", "Got any jokes"
+      ],
+      "responses": [
+        "Why did the coffee file a police report? Because it got mugged!",
+        "What did the tea bag say to the hot water? Let's steep together!",
+        "How does a coffee pot feel when no one drinks from it? Depresso!",
+        "What's a coffee bean's favorite song? 'You raise me up!'"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Tell me about yourself", "What can you do?",
+        "Who are you?", "What is your purpose?",
+        "How can you help me?"
+      ],
+      "responses": [
+        "I'm an AI assistant specializing in coffee and tea products. I can help you with product information, orders, and general inquiries!",
+        "I'm here to assist you with our coffee and tea products, answer questions about shipping, payments, and make your shopping experience better!",
+        "I'm your friendly AI helper! I can provide information about our products, help with orders, and answer any questions you have!"
+      ]
+    }
+  ]
+}
